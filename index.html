@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mortoza Tools Hub</title>
+  <style>
+    body{
+      margin:0;
+      font-family: Arial, Helvetica, sans-serif;
+      background:#f4f6f8;
+      color:#333;
+    }
+    header{
+      background:#0f172a;
+      color:#fff;
+      padding:30px 20px;
+    }
+    .profile{
+      max-width:1100px;
+      margin:auto;
+      display:flex;
+      align-items:center;
+      gap:20px;
+      flex-wrap:wrap;
+    }
+    .profile img{
+      width:90px;
+      height:90px;
+      border-radius:50%;
+      object-fit:cover;
+      border:3px solid #38bdf8;
+    }
+    .profile h1{
+      margin:0;
+      font-size:26px;
+    }
+    .profile p{
+      margin-top:6px;
+      font-size:14px;
+      opacity:.9;
+    }
+    .top-bar{
+      max-width:1100px;
+      margin:20px auto;
+      padding:0 20px;
+      display:flex;
+      gap:15px;
+      flex-wrap:wrap;
+    }
+    .search{
+      flex:1;
+    }
+    .search input{
+      width:100%;
+      padding:10px;
+      border-radius:6px;
+      border:1px solid #ccc;
+      font-size:14px;
+    }
+    .category select{
+      padding:10px;
+      border-radius:6px;
+      border:1px solid #ccc;
+      font-size:14px;
+    }
+    .container{
+      max-width:1100px;
+      margin:auto;
+      padding:20px;
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+      gap:20px;
+    }
+    .card{
+      background:#fff;
+      border-radius:10px;
+      box-shadow:0 6px 20px rgba(0,0,0,.08);
+      padding:20px;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+    }
+    .card h2{
+      font-size:17px;
+      margin-bottom:8px;
+    }
+    .card span{
+      font-size:12px;
+      color:#64748b;
+    }
+    .card p{
+      font-size:14px;
+      line-height:1.6;
+      margin:10px 0 15px;
+    }
+    .btn{
+      text-decoration:none;
+      background:#2563eb;
+      color:#fff;
+      padding:10px 15px;
+      border-radius:6px;
+      text-align:center;
+      font-size:14px;
+    }
+    footer{
+      background:#0f172a;
+      color:#fff;
+      padding:20px;
+      margin-top:40px;
+    }
+    .footer-content{
+      max-width:1100px;
+      margin:auto;
+      display:flex;
+      justify-content:space-between;
+      flex-wrap:wrap;
+      gap:15px;
+      font-size:14px;
+    }
+    .footer-content a{
+      color:#5AE30B;
+      text-decoration:none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="profile">
+    <img src="profile.jpg" alt="Mortoza" />
+    <div>
+      <h1>Mortoza</h1>
+      <p>Graphic Designer & Trainer | Free Software & Learning Resources</p>
+    </div>
+  </div>
+</header>
+
+<div class="top-bar">
+  <div class="search">
+    <input type="text" placeholder="Search software... (demo)" />
+  </div>
+  <div class="category">
+    <select>
+      <option>All Categories</option>
+      <option>Adobe Software</option>
+      <option>Utility Tools</option>
+    </select>
+  </div>
+</div>
+
+<section class="container">
+
+  <div class="card">
+    <h2>Adobe Photoshop <span>(2019–2022)</span></h2>
+    <p>Industry standard photo editing software for designers and photographers.</p>
+    <a class="btn" href="https://drive.google.com/drive/folders/1kAx4gyZA2awxtcdR1dggBg_bCY4dRflm?usp=sharing">Download / Resource</a>
+  </div>
+
+  <div class="card">
+    <h2>Adobe Illustrator <span>(2019–2022)</span></h2>
+    <p>Vector graphic design tool for logos, icons, and illustrations.</p>
+    <a class="btn" href="https://drive.google.com/drive/folders/17CaJPefELpYhX2DVF26u6LFnGTYmdmk1?usp=sharing">Download / Resource</a>
+  </div>
+
+  <div class="card">
+    <h2>WinRAR</h2>
+    <p>Popular file compression and extraction utility for Windows.</p>
+    <a class="btn" href="#">Download / Resource</a>
+  </div>
+
+</section>
+
+<footer>
+  <div class="footer-content">
+    <div>
+      <strong>Follow Me</strong><br>
+      <a href="https://www.youtube.com/@MortozaZahid">YouTube</a> | <a href="https://www.facebook.com/mortozahzahid">Facebook</a>
+    </div>
+    <div>
+      <strong>Need Help?</strong><br>
+      <a href="https://wa.me/8801612546007" target="_blank">Message on WhatsApp</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
